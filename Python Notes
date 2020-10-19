@@ -1,0 +1,32 @@
+Web Application:
+
+Before creating a flask application, a virtual environment needs to be created. 
+
+Creating a virtual enrivonment in Python
+python -m venv virtual #virtual is the name of the virtual folder
+
+
+
+Book Manager applications:
+sqllite3 
+- Python library to interact with SQLLite database. SQL code can be written inside python using sqllite3
+- This is not the actual SQLLite database. SQLLite database can be created as a file and hence this application can be distributed to anyone without having to install sqllite. 
+
+psycopg2
+
+1. Connect to a database
+2. Create a cursor object
+3. Write a Sql query
+4. Commit changes
+5. Close the connection
+
+
+psycopg2 dependencies
+sudo apt install -y build-essential libssl-dev libffi-dev python3-dev libjpeg-dev libjpeg8-dev
+sudo apt install libpq-dev
+sudo apt-get install python3-pip
+pip install psycopg2
+https://stackoverflow.com/questions/47318227/cannot-install-psycopg2-ubuntu/47318374
+https://serverfault.com/questions/110154/whats-the-default-superuser-username-password-for-postgres-after-a-new-install
+https://www.postgresql.org/download/linux/ubuntu/
+https://stackoverflow.com/questions/11583714/install-psycopg2-on-ubuntu
